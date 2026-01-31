@@ -49,6 +49,13 @@ export default function AddExpenseScreen() {
         }
     };
 
+    const handlePickImage = async () => {
+        const uri = await pickImage();
+        if (uri) {
+            setImageUri(uri);
+        }
+    };
+
     const handleScanReceipt = async () => {
         const result = await scanReceipt();
         if (result) {
@@ -69,13 +76,6 @@ export default function AddExpenseScreen() {
                 'Revisa y completa los datos del gasto.\n\nNota: Para OCR completo se requiere configuración nativa adicional.',
                 [{ text: 'OK' }]
             );
-        }
-    };
-
-    const handlePickImage = async () => {
-        const uri = await pickImage();
-        if (uri) {
-            setImageUri(uri);
         }
     };
 
