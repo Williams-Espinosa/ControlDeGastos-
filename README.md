@@ -1,4 +1,4 @@
-# 💸 Control de Gastos - React Native
+# 💸 Control de Gastos 
 
 Una aplicación móvil multiplataforma diseñada para el control financiero personal. Permite a los usuarios registrar ingresos y egresos de manera intuitiva y eficiente.
 
@@ -17,3 +17,20 @@ Una aplicación móvil multiplataforma diseñada para el control financiero pers
 ## 📲 Instalación
 1. `npm install`
 2. `npx react-native run-android` o `run-ios`
+
+## 📄 Licencia
+
+![Licencia: Privada](https://img.shields.io/badge/Licencia-No_Comercial-red?style=for-the-badge)
+---
+
+## Propiedad Intelectual
+
+Todo el contenido de este repositorio, incluyendo el código fuente, diseño gráfico, está protegido por las leyes de propiedad intelectual.
+
+* **Uso permitido:** Consulta, aprendizaje y exhibición personal.
+* **Prohibiciones:** Se prohíbe estrictamente la copia parcial o total para uso comercial, la reventa del software.
+
+> ###  *"Crea el presente, codifica el futuro."*
+> © 2026 **Williams-Espinosa**. Todos los derechos reservados.
+
+---
