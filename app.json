@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "expense-tracker-pro",
-    "slug": "expense-tracker-pro",
-    "version": "1.0.0",
+    "name": "Control de Gastos Pro",
+    "slug": "control-de-gastos-pro",
+    "version": "1.2.3",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "expensetrackerpro",
+    "icon": "./assets/images/inconos.png",
+    "scheme": "controldegastospro",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -14,23 +14,24 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "foregroundImage": "./assets/images/splas.png",
+        "backgroundImage": "./assets/images/splas.png",
+        "monochromeImage": "./assets/images/splas.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.expensetrackerpro"
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/inconos.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/splas.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff",
@@ -43,6 +44,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "aa955cb0-7372-49fb-8fa5-2624ed37a2eb"
+      }
     }
   }
 }
